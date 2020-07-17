@@ -1,0 +1,9 @@
+
+
+<table>
+    <tr *ngFor="let product of cart">
+        <td>{{product.name}}</td>
+        <td><a (click)="removeFromCart(product)">remove</a></td>
+    </tr>
+</table>
+
